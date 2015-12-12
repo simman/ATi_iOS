@@ -9,23 +9,30 @@
 /* Begin PBXBuildFile section */
 		3F8D5EDF1C1C052700053819 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5EDE1C1C052700053819 /* main.m */; };
 		3F8D5EE21C1C052700053819 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5EE11C1C052700053819 /* AppDelegate.m */; };
-		3F8D5EE51C1C052700053819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5EE41C1C052700053819 /* ViewController.m */; };
 		3F8D5EE81C1C052700053819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8D5EE61C1C052700053819 /* Main.storyboard */; };
 		3F8D5EEA1C1C052700053819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8D5EE91C1C052700053819 /* Assets.xcassets */; };
 		3F8D5EED1C1C052700053819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8D5EEB1C1C052700053819 /* LaunchScreen.storyboard */; };
+		3F8D5EF61C1C0C3B00053819 /* SMSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5EF51C1C0C3B00053819 /* SMSTableViewController.m */; };
+		3F8D5EF91C1C147300053819 /* SMSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5EF81C1C147300053819 /* SMSTableViewCell.m */; };
+		9A02BA51C1623C0FF50E30CD /* libPods-SMSHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BE550A0FF5CAA95F3FA8BC /* libPods-SMSHelper.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C87C7D17509485EE5FF51E8 /* Pods-SMSHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSHelper/Pods-SMSHelper.release.xcconfig"; sourceTree = "<group>"; };
 		3F8D5EDA1C1C052700053819 /* SMSHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8D5EDE1C1C052700053819 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F8D5EE01C1C052700053819 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F8D5EE11C1C052700053819 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F8D5EE31C1C052700053819 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F8D5EE41C1C052700053819 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F8D5EE71C1C052700053819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8D5EE91C1C052700053819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8D5EEC1C1C052700053819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8D5EEE1C1C052700053819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8D5EF41C1C0C3B00053819 /* SMSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSTableViewController.h; sourceTree = "<group>"; };
+		3F8D5EF51C1C0C3B00053819 /* SMSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSTableViewController.m; sourceTree = "<group>"; };
+		3F8D5EF71C1C147300053819 /* SMSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSTableViewCell.h; sourceTree = "<group>"; };
+		3F8D5EF81C1C147300053819 /* SMSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSTableViewCell.m; sourceTree = "<group>"; };
+		E0BE550A0FF5CAA95F3FA8BC /* libPods-SMSHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42175025B7C2AED9A3E036F /* Pods-SMSHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSHelper/Pods-SMSHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A02BA51C1623C0FF50E30CD /* libPods-SMSHelper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				3F8D5EDC1C1C052700053819 /* SMSHelper */,
 				3F8D5EDB1C1C052700053819 /* Products */,
+				B380AD1C02C88FCA6D8C0967 /* Pods */,
+				BE9BD2BD994455E2FE1F734B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +70,10 @@
 			children = (
 				3F8D5EE01C1C052700053819 /* AppDelegate.h */,
 				3F8D5EE11C1C052700053819 /* AppDelegate.m */,
-				3F8D5EE31C1C052700053819 /* ViewController.h */,
-				3F8D5EE41C1C052700053819 /* ViewController.m */,
+				3F8D5EF71C1C147300053819 /* SMSTableViewCell.h */,
+				3F8D5EF81C1C147300053819 /* SMSTableViewCell.m */,
+				3F8D5EF41C1C0C3B00053819 /* SMSTableViewController.h */,
+				3F8D5EF51C1C0C3B00053819 /* SMSTableViewController.m */,
 				3F8D5EE61C1C052700053819 /* Main.storyboard */,
 				3F8D5EE91C1C052700053819 /* Assets.xcassets */,
 				3F8D5EEB1C1C052700053819 /* LaunchScreen.storyboard */,
@@ -79,6 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B380AD1C02C88FCA6D8C0967 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42175025B7C2AED9A3E036F /* Pods-SMSHelper.debug.xcconfig */,
+				1C87C7D17509485EE5FF51E8 /* Pods-SMSHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE9BD2BD994455E2FE1F734B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE550A0FF5CAA95F3FA8BC /* libPods-SMSHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F8D5EF11C1C052700053819 /* Build configuration list for PBXNativeTarget "SMSHelper" */;
 			buildPhases = (
+				0562BC316841B9AB0020628D /* Check Pods Manifest.lock */,
 				3F8D5ED61C1C052700053819 /* Sources */,
 				3F8D5ED71C1C052700053819 /* Frameworks */,
 				3F8D5ED81C1C052700053819 /* Resources */,
+				40C3972A17DE9FD43174C9E6 /* Embed Pods Frameworks */,
+				12E071F3F5F2804A45A649CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +176,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0562BC316841B9AB0020628D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12E071F3F5F2804A45A649CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSHelper/Pods-SMSHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40C3972A17DE9FD43174C9E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSHelper/Pods-SMSHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F8D5ED61C1C052700053819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8D5EE51C1C052700053819 /* ViewController.m in Sources */,
 				3F8D5EE21C1C052700053819 /* AppDelegate.m in Sources */,
 				3F8D5EDF1C1C052700053819 /* main.m in Sources */,
+				3F8D5EF61C1C0C3B00053819 /* SMSTableViewController.m in Sources */,
+				3F8D5EF91C1C147300053819 /* SMSTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +342,7 @@
 		};
 		3F8D5EF21C1C052700053819 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42175025B7C2AED9A3E036F /* Pods-SMSHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMSHelper/Info.plist;
@@ -272,6 +354,7 @@
 		};
 		3F8D5EF31C1C052700053819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C87C7D17509485EE5FF51E8 /* Pods-SMSHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMSHelper/Info.plist;
@@ -300,6 +383,7 @@
 				3F8D5EF31C1C052700053819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
